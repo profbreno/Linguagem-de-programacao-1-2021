@@ -30,6 +30,8 @@ public class Main {
 
         System.out.println("MEDIA = " + new DecimalFormat(".#").format(media));
 
+        leitor.close();
+
     }
 
 }

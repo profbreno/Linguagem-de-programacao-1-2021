@@ -64,5 +64,7 @@ public class q1021 {
         System.out.printf("%d moeda(s) de R$ 0.01%n", V);
         VI = VI % 1.0;
 
+        input.close();
+
     }
 }
