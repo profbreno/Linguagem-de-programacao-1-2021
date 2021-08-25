@@ -16,7 +16,7 @@ public class Exemplo2_25_08_2021 {
 		}
 		
 		for(int i = 0; i < numeros.length; i++) {
-			System.out.println(numeros[i]);
+			System.out.print(numeros[i] + ", ");
 		}
 	}
 }
