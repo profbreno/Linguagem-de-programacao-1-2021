@@ -16,7 +16,11 @@ public class Exemplo2_25_08_2021 {
 		}
 		
 		for(int i = 0; i < numeros.length; i++) {
-			System.out.print(numeros[i] + ", ");
+			if(i == numeros.length-1) {
+				System.out.print(numeros[i]);
+			}else{
+				System.out.print(numeros[i] + ", ");
+			}
 		}
 	}
 }
